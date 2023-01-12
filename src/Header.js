@@ -1,5 +1,10 @@
 import React from 'react';
+import Nav from './Nav.js';
 
 export default function Header() {
-  return <header>header</header>;
+  return (
+    <header>
+      <Nav />
+    </header>
+  );
 }
