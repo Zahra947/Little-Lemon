@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import styled from 'styled-components';
 import Header from './Header.js';
 import Nav from './Nav.js';
 import Main from './Main.js';
