@@ -1,11 +1,17 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
+import Header from './Header.js';
+import Nav from './Nav.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </>
   );
 }
