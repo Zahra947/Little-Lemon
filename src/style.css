@@ -11,10 +11,13 @@
   grid-template-columns: repeat(7, 2fr);
   grid-auto-rows: minmax(50px, auto);
 }
-@media (min-width: 200px) {
+@media (max-width: 400px) {
   .nav {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 20px;
   }
 }
 .logo {
