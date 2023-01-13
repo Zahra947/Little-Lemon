@@ -1,29 +1,30 @@
 .header {
   display: grid;
-  grid-template-columns: repeat(7, 2fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-
+  padding-left: 160px;
+  padding-right: 160px;
   margin: 20px;
 }
 .nav {
   display: grid;
   place-items: center;
   text-align: center;
-  padding-left: 80px;
-  padding-right: 80px;
+  grid-template-columns: repeat(7, 2fr);
+  grid-auto-rows: minmax(50px, auto);
+}
+@media (min-width: 200px) {
+  .nav {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
 }
 .logo {
   width: 160px;
   height: 25px;
   padding-right: 90px;
-  grid-row: 1;
-  grid-column: 1;
 }
-.nav-item {
+.item {
   padding: 8px;
   font-family: Karla;
-  grid-column: 2;
 }
 
 ul {
