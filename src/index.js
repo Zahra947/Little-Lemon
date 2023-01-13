@@ -1,6 +1,7 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import '@fontsource/karla';
+import '@fontsource/markazi-text';
 
 import App from './App';
 

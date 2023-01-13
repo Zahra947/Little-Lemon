@@ -3,7 +3,7 @@ import React from 'react';
 export default function Main() {
   return (
     <main className="main">
-      <section>
+      <section className="M_section1">
         <article>
           <h2>Little Lemon</h2>
           <h1>Chicago</h1>
