@@ -7,6 +7,18 @@ p {
   display: grid;
   place-items: center;
   text-align: center;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   background-color: green;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 20px;
+}
+.nav {
+  display: inline-flex;
+}
+.logo {
+}
+ul {
+  list-style-type: none;
 }
