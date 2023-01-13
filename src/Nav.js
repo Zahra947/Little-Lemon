@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav>
       <ul className="nav">
-        <img className="logo" src="./Top pic.png" />
+        <img className="logo" src="./logo.png" />
         <li className="nav-item">Home </li>
         <li className="nav-item">About</li>
         <li className="nav-item">Menu</li>
