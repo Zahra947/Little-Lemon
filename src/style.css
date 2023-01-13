@@ -38,6 +38,8 @@ ul {
   color: #495e57;
 }
 .M_section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #495e57;
   font-family: markazi-text;
   /*padding-left: 80px;
@@ -45,6 +47,8 @@ ul {
   margin: 20px;
   align-items: flex-start;
   text-align: left;
+}
+.section1_a {
 }
 .main {
   display: grid;

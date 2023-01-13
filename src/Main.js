@@ -4,7 +4,7 @@ export default function Main() {
   return (
     <main className="main">
       <section className="M_section1">
-        <article>
+        <article className="section1_a">
           <h2>Little Lemon</h2>
           <h1>Chicago</h1>
           <br />
