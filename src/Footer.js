@@ -1,5 +1,14 @@
 import React from 'react';
 
 export default function Footer() {
-  return <footer>footer</footer>;
+  return (
+    <footer className="footer">
+      <span>
+        <img src="logo.png" alt="little lemon logo" />
+      </span>
+      <span>
+        <section className="f_">footer</section>
+      </span>
+    </footer>
+  );
 }

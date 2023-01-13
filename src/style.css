@@ -1,13 +1,16 @@
-.header {
+.header,
+.main,
+footer {
   display: grid;
   padding-left: 160px;
   padding-right: 160px;
+  place-items: center;
+  text-align: center;
   margin: 20px;
 }
 .nav {
   display: grid;
-  place-items: center;
-  text-align: center;
+
   grid-template-columns: repeat(7, 2fr);
   grid-auto-rows: minmax(50px, auto);
 }
