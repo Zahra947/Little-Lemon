@@ -1,27 +1,33 @@
 .header {
   display: grid;
-  place-items: center;
-  text-align: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(7, 2fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 
-  padding-left: 80px;
-  padding-right: 80px;
   margin: 20px;
 }
 .nav {
-  display: inline-flex;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .logo {
   width: 160px;
   height: 25px;
   padding-right: 90px;
+  grid-row: 1;
+  grid-column: 1;
 }
 .nav-item {
   padding: 8px;
   font-family: Karla;
+  grid-column: 2;
 }
 
 ul {
   list-style-type: none;
+  font-size: 18px;
+  color: #495e57;
 }

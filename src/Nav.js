@@ -5,12 +5,12 @@ export default function Nav() {
     <nav>
       <ul className="nav">
         <img className="logo" src="./logo.png" />
-        <li className="nav-item">Home </li>
-        <li className="nav-item">About</li>
-        <li className="nav-item">Menu</li>
-        <li className="nav-item">Reservation</li>
-        <li className="nav-item">Order Online</li>
-        <li className="nav-item"> Login</li>
+        <li className="nav item">Home </li>
+        <li className="nav item">About</li>
+        <li className="nav item">Menu</li>
+        <li className="nav item">Reservation</li>
+        <li className="nav item">Order Online</li>
+        <li className="nav item"> Login</li>
       </ul>
     </nav>
   );
