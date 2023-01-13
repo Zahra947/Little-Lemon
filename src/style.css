@@ -50,6 +50,10 @@ ul {
 }
 .section1_a {
 }
+.section1_p {
+  margin-right: 200px;
+  text-justify: auto;
+}
 .main {
   display: grid;
   padding-left: 160px;

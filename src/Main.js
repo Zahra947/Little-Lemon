@@ -8,7 +8,7 @@ export default function Main() {
           <h2>Little Lemon</h2>
           <h1>Chicago</h1>
           <br />
-          <p>
+          <p className="section1_p">
             We are a family owned a Mideterranean restaurant, focudes on
             traditional recipes served with a modern twist.
           </p>
