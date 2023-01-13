@@ -14,7 +14,7 @@ export default function Main() {
           </p>
           <button>Resserve a Table</button>
         </article>
-        <img src="" alt="" />
+        <img src="./reserve.png" alt="reserve" />
       </section>
       <section>
         <article></article>
