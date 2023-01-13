@@ -52,7 +52,9 @@ ul {
 }
 .section1_p {
   margin-right: 200px;
+  font-weight: medium;
   text-justify: auto;
+  font-family: Karla;
 }
 .main {
   display: grid;
@@ -62,4 +64,19 @@ ul {
   text-align: center;
   margin: 10px;
   background-color: #495e57;
+}
+h2 {
+  color: #f4ce14;
+}
+h1,
+p {
+  color: #edefee;
+}
+button{
+  font-family: Karla;
+  border-radius: 5px;
+  border: none;
+  background-color:#f4ce14;
+  color:#333333;
+  font-weight: bolder;
 }
