@@ -80,7 +80,11 @@ button {
   color: #333333;
   font-weight: bolder;
 }
-.m_section1_image {
+.M_section1 .m_section1_image {
+  display: flex;
+  height: 100% auto;
   align-items: center;
-  margin-bottom: -50vw;
+  overflow-y: visible;
+  margin:10px ;
+  padding: 50px;
 }
