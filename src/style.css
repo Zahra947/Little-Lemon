@@ -72,11 +72,15 @@ h1,
 p {
   color: #edefee;
 }
-button{
+button {
   font-family: Karla;
   border-radius: 5px;
   border: none;
-  background-color:#f4ce14;
-  color:#333333;
+  background-color: #f4ce14;
+  color: #333333;
   font-weight: bolder;
+}
+.m_section1_image {
+  align-items: center;
+  margin-bottom: -50vw;
 }
