@@ -14,10 +14,10 @@ export default function Main() {
           </p>
           <button>Resserve a Table</button>
         </article>
-        <img src="./reserve.png" alt="reserve" className="m_section1_image"/>
+        <img src="./reserve.png" alt="reserve" className="m_section1_image" />
       </section>
       <section>
-        <article></article>
+        <h2 className="specails">This week Specials!</h2>
         <table></table>
       </section>
     </main>

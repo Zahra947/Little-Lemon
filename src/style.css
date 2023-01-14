@@ -47,6 +47,8 @@ ul {
   margin: 20px;
   align-items: flex-start;
   text-align: left;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 .section1_a {
 }
@@ -58,12 +60,9 @@ ul {
 }
 .main {
   display: grid;
-  padding-left: 160px;
-  padding-right: 160px;
   place-items: center;
   text-align: center;
   margin: 10px;
-  background-color: #495e57;
 }
 h2 {
   color: #f4ce14;
@@ -85,6 +84,11 @@ button {
   height: 100% auto;
   align-items: center;
   overflow-y: visible;
-  margin:10px ;
+  margin: 10px;
   padding: 50px;
+}
+.specails {
+  font-family: markazi-text;
+  font-size: 40px;
+  color: #333333;
 }
