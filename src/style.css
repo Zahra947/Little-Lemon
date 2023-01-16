@@ -13,7 +13,7 @@
   grid-template-columns: repeat(7, 2fr);
   grid-auto-rows: minmax(50px, auto);
 }
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
   .nav {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -21,7 +21,7 @@
     padding-right: 80px;
     margin: 20px;
   }
-}
+}*/
 .logo {
   width: 160px;
   height: 25px;
@@ -37,7 +37,7 @@ ul {
   font-size: 18px;
   color: #495e57;
 }
-.M_section1 {
+.M_section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #495e57;
@@ -47,8 +47,8 @@ ul {
   margin: 20px;
   align-items: flex-start;
   text-align: left;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 .section1_a {
 }
@@ -79,7 +79,7 @@ button {
   color: #333333;
   font-weight: bolder;
 }
-.M_section1 .m_section1_image {
+.M_section .m_section1_image {
   display: flex;
   height: 100% auto;
   align-items: center;
@@ -87,8 +87,15 @@ button {
   margin: 10px;
   padding: 50px;
 }
+
 .specails {
+  display: flex;
   font-family: markazi-text;
   font-size: 40px;
   color: #333333;
+  background-color: #edefee;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 140px;
+  padding-right: 140px;
 }

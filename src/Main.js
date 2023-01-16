@@ -3,7 +3,7 @@ import React from 'react';
 export default function Main() {
   return (
     <main className="main">
-      <section className="M_section1">
+      <section className="M_section">
         <article className="section1_a">
           <h2>Little Lemon</h2>
           <h1>Chicago</h1>
@@ -16,10 +16,8 @@ export default function Main() {
         </article>
         <img src="./reserve.png" alt="reserve" className="m_section1_image" />
       </section>
-      <section>
-        <h2 className="specails">This week Specials!</h2>
-        <table></table>
-      </section>
+      <article className="specails">This Week Specials!</article>
+      <button className="specails_b">Order Online</button>
     </main>
   );
 }
