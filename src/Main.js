@@ -18,7 +18,7 @@ export default function Main() {
       </section>
       <section className="M_section2">
         <article className="M_section2_a">This Week Specials!</article>
-        <button className="specails_b">Order Online</button>
+        <button className="M_section2_b">Order Online</button>
       </section>
     </main>
   );
