@@ -3,8 +3,8 @@ import React from 'react';
 export default function Main() {
   return (
     <main className="main">
-      <section className="M_section">
-        <article className="section1_a">
+      <section className="M_section1">
+        <article className="M_section1_a">
           <h2>Little Lemon</h2>
           <h1>Chicago</h1>
           <br />
@@ -16,8 +16,10 @@ export default function Main() {
         </article>
         <img src="./reserve.png" alt="reserve" className="m_section1_image" />
       </section>
-      <article className="specails">This Week Specials!</article>
-      <button className="specails_b">Order Online</button>
+      <section className="M_section2">
+        <article className="M_section2_a">This Week Specials!</article>
+        <button className="specails_b">Order Online</button>
+      </section>
     </main>
   );
 }
