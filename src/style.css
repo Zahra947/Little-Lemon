@@ -104,3 +104,10 @@ button {
   font-size: 18px;
   width: auto;
 }
+.M_section3 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin: 20px;
+}

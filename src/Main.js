@@ -20,6 +20,20 @@ export default function Main() {
         <article className="M_section2_a">This Week Specials!</article>
         <button className="M_section2_b">Order Online</button>
       </section>
+      <div className="M_section3">
+        <section>
+          <img src="" alt="" />
+          <article>Greek Salad</article>
+        </section>
+        <section>
+          <img src="" alt="" />
+          <article>Bruchetta</article>
+        </section>
+        <section>
+          <img src="" alt="" />
+          <article>Lemon Desert</article>
+        </section>
+      </div>
     </main>
   );
 }
