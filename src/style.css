@@ -1,8 +1,8 @@
 .header,
 .footer {
   display: flex;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 300px;
+  padding-right: 300px;
   place-items: center;
   text-align: center;
   margin: 10px;
@@ -43,8 +43,8 @@ ul {
   margin: 20px;
   align-items: flex-start;
   text-align: left;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 300px;
+  padding-right: 300px;
   justify-content: space-between;
 }
 .M_section1_a {
@@ -86,8 +86,8 @@ button {
 .M_section2 {
   display: flex;
   justify-content: space-between;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 300px;
+  padding-right: 300px;
   margin: 20px;
 }
 .M_section2_a {
@@ -98,8 +98,8 @@ button {
   flex-basis: content;
 }
 .M_section2_b {
-  display: flex;
-  text-align: left;
+  /*display: flex;*/
+  text-align: center;
   flex-direction: row-reverse;
   font-size: 18px;
   width: auto;
