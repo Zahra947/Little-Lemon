@@ -106,6 +106,7 @@ button {
   align-items: flex-start;
   text-align: left;
   flex-basis: content;
+  font-weight: bolder;
 }
 .M_section2_b {
   /*display: flex;*/
