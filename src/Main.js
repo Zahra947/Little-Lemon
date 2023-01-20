@@ -14,7 +14,7 @@ export default function Main() {
           </p>
           <button>Resserve a Table</button>
         </article>
-        <img src="./reserve.png" alt="reserve" className="m_section1_image" />
+        <img src="./media/reserve.png" alt="reserve" className="m_section1_image" />
       </section>
       <section className="M_section2">
         <article className="M_section2_a">This Week Specials!</article>
@@ -22,15 +22,15 @@ export default function Main() {
       </section>
       <div className="M_section3">
         <section>
-          <img src="" alt="" />
+          <img src="./media/greek-salad" alt="Greek Salad" />
           <article>Greek Salad</article>
         </section>
         <section>
-          <img src="" alt="" />
+          <img src="./media/bruchetta.jpg" alt="Bruchetta" />
           <article>Bruchetta</article>
         </section>
         <section>
-          <img src="" alt="" />
+          <img src="./media/lemon-desert" alt="Lemon Desert" />
           <article>Lemon Desert</article>
         </section>
       </div>
