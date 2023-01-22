@@ -12,22 +12,26 @@ nav {
   display: flex;
   padding-bottom: 10px;
 }
-/*@media (max-width: 400px) {
-  .nav {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin: 20px;
+@media (max-width: 991px) {
+  ul {
+    flex-wrap: wrap;
   }
-}*/
+
+  li {
+    flex-basis: content;
+  }
+}
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   font-size: 18px;
   color: #495e57;
-  padding: 0px;
+  padding: 10px;
+}
+nav li {
+  flex: auto;
+  flex-wrap: wrap;
 }
 .logo {
   width: 160px;

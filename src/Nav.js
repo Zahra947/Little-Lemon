@@ -10,8 +10,8 @@ export default function Nav() {
         <li className="item"> Home </li>
         <li className="item">About</li>
         <li className="item">Menu</li>
-        <li className="item">Reservation</li>
-        <li className="item">Order Online</li>
+        <li className="item">Reserve</li>
+        <li className="item">Order</li>
         <li className="item"> Login</li>
       </ul>
     </nav>
