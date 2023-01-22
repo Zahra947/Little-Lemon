@@ -7,12 +7,12 @@ export default function Nav() {
         <li>
           <img className="logo" src="./media/LOGO.jpg" />
         </li>
-        <li className="item"> Home </li>
-        <li className="item">About</li>
-        <li className="item">Menu</li>
-        <li className="item">Reserve</li>
-        <li className="item">Order</li>
-        <li className="item"> Login</li>
+        <li> Home </li>
+        <li>About</li>
+        <li>Menu</li>
+        <li>Reservation</li>
+        <li>Order</li>
+        <li> Login</li>
       </ul>
     </nav>
   );
