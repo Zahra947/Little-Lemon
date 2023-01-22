@@ -33,9 +33,20 @@ nav li {
   flex: auto;
   flex-wrap: wrap;
   padding: 5px;
-  font-family: Karla;
 }
-.logo {
+.f_contact {
+  font-family: Karla;
+  color: #495e57;
+  padding: 10px;
+}
+.rights {
+  font-family: Karla;
+  font-size: 12px;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding: 10px;
+}
+nav img {
   width: 160px;
   height: 25px;
   padding-right: 90px;
@@ -62,7 +73,7 @@ nav li {
   text-justify: auto;
   font-family: Karla;
 }
-.main {
+main {
   /*display: flex;*/
   place-items: center;
   text-align: center;
@@ -92,10 +103,10 @@ button {
 }
 .M_section1 .m_section1_image {
   display: flex;
-  height: 100% auto;
   align-items: center;
   padding: 50px;
 }
+
 .M_section2 {
   display: flex;
   justify-content: space-between;
@@ -150,6 +161,16 @@ button {
   background-color: #edefee;
   margin: 5px;
   padding: 8px;
-  border-radius: 5%;
-  height: fit-content;
+  border-radius: 10px;
+  align-items: baseline;
+  
+}
+.img_foods {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }

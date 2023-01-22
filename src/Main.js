@@ -2,7 +2,7 @@ import React from 'react';
 import DeliveryDiningOutlinedIcon from '@mui/icons-material/DeliveryDiningOutlined';
 export default function Main() {
   return (
-    <main className="main">
+    <main>
       <section className="M_section1">
         <article className="M_section1_a">
           <h2>Little Lemon</h2>
@@ -26,7 +26,11 @@ export default function Main() {
       </section>
       <div className="M_section3">
         <section className="foods">
-          <img src="./media/greek-salad" alt="Greek Salad" />
+          <img
+            src="./media/greek-salad"
+            alt="Greek Salad"
+            className="img_foods"
+          />
           <h3 className="foodName">
             Greek Salad &nbsp;<span className="priceName">$ 12.99</span>
           </h3>
@@ -40,7 +44,11 @@ export default function Main() {
           </button>
         </section>
         <section className="foods">
-          <img src="./media/bruchetta.jpg" alt="Bruchetta" />
+          <img
+            src="./media/bruchetta.jpg"
+            alt="Bruchetta"
+            className="img_foods"
+          />
           <h3 className="foodName">
             Bruchetta &nbsp;<span className="priceName">$ 5.99</span>
           </h3>
@@ -53,7 +61,11 @@ export default function Main() {
           </button>
         </section>
         <section className="foods">
-          <img src="./media/lemon-desert" alt="Lemon Desert" />
+          <img
+            src="./media/lemon-desert"
+            alt="Lemon Desert"
+            className="img_foods"
+          />
           <h3 className="foodName">
             Lemon Desert &nbsp;<span className="priceName">$ 5.00</span>
           </h3>

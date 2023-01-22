@@ -3,11 +3,9 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer className="footer">
-      <span>
-        <img src="logo.png" alt="little lemon logo" />
-      </span>
-      <span>
-        <section className="f_">footer</section>
+      <span className="f_contact">Contact</span>
+      <span className="rights">
+        All rights are deserved by Little Lemon Restaurant, 2023.
       </span>
     </footer>
   );
