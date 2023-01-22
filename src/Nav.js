@@ -3,9 +3,11 @@ import React from 'react';
 export default function Nav() {
   return (
     <nav>
-      <ul className="nav">
-        <img className="logo" src="./media/LOGO.jpg" />
-        <li className="item">Home </li>
+      <ul>
+        <li>
+          <img className="logo" src="./media/LOGO.jpg" />
+        </li>
+        <li className="item"> Home </li>
         <li className="item">About</li>
         <li className="item">Menu</li>
         <li className="item">Reservation</li>

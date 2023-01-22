@@ -5,12 +5,12 @@
   padding-right: 300px;
   place-items: center;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
+  justify-content: space-between;
 }
-.nav {
+nav {
   display: flex;
-  /*  grid-template-columns: repeat(7, 2fr);
-  grid-auto-rows: minmax(50px, auto);*/
+  padding-bottom: 10px;
 }
 /*@media (max-width: 400px) {
   .nav {
@@ -21,6 +21,14 @@
     margin: 20px;
   }
 }*/
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 18px;
+  color: #495e57;
+  padding: 0px;
+}
 .logo {
   width: 160px;
   height: 25px;
@@ -31,11 +39,6 @@
   font-family: Karla;
 }
 
-ul {
-  list-style-type: none;
-  font-size: 18px;
-  color: #495e57;
-}
 .M_section1 {
   display: flex;
   background-color: #495e57;
@@ -146,4 +149,5 @@ button {
   margin: 5px;
   padding: 8px;
   border-radius: 5%;
+  height: fit-content;
 }
