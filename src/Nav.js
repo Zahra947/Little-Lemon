@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from '.components/Home.js';
-import About from '.components/About.js';
-import Menu from '.components/Menu.js';
-import Reservation from '.components/Reservation.js';
-import Order from '.components/Order.js';
-import Login from '.components/Login.js';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import Menu from './components/Menu.js';
+import Reservation from './components/Reservation.js';
+import Order from './components/Order.js';
+import Login from './components/Login.js';
 
 export default function Nav() {
   return (
