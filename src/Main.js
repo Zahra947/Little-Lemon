@@ -40,7 +40,7 @@ export default function Main() {
             rosemary croutons.
           </article>
           <button>
-            <span >
+            <span>
               <DeliveryDiningOutlinedIcon />
             </span>
           </button>
