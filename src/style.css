@@ -1,3 +1,16 @@
+@media screen and (max-width: 900px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    flex-basis: content;
+  }
+  .M_section3 {
+    float: none;
+    width: 100%;
+  }
+}
 .header,
 .footer {
   display: flex;
@@ -11,15 +24,6 @@
 nav {
   display: flex;
   padding: 10px;
-}
-@media (max-width: 991px) {
-  ul {
-    flex-wrap: wrap;
-  }
-
-  li {
-    flex-basis: content;
-  }
 }
 nav ul {
   display: flex;
@@ -94,6 +98,7 @@ h3 {
   font-family: markazi-text;
 }
 button {
+  flex-wrap: wrap;
   font-family: Karla;
   border-radius: 5px;
   border: none;
@@ -133,7 +138,9 @@ button {
 }
 .M_section3 {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  float: left;
   padding-left: 300px;
   padding-right: 300px;
   margin: 20px;
@@ -162,13 +169,14 @@ button {
   margin: 5px;
   padding: 8px;
   border-radius: 10px;
-  align-items: baseline;
-  
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
 }
 .img_foods {
   display: flex;
   align-items: center;
-  padding: 50px;
+  padding: 20px;
   float: left;
   width: 100px;
   height: 100px;

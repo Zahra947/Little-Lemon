@@ -24,7 +24,7 @@ export default function Main() {
         <article className="M_section2_a">This Week Specials!</article>
         <button className="M_section2_b">Order Online</button>
       </section>
-      <div className="M_section3">
+      <section className="M_section3">
         <section className="foods">
           <img
             src="./media/greek-salad"
@@ -40,7 +40,9 @@ export default function Main() {
             rosemary croutons.
           </article>
           <button>
-            <DeliveryDiningOutlinedIcon />
+            <span >
+              <DeliveryDiningOutlinedIcon />
+            </span>
           </button>
         </section>
         <section className="foods">
@@ -77,7 +79,7 @@ export default function Main() {
             <DeliveryDiningOutlinedIcon />
           </button>
         </section>
-      </div>
+      </section>
     </main>
   );
 }

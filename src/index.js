@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import '@fontsource/karla';
 import '@fontsource/markazi-text';
 
+
 import App from './App';
 
 const rootElement = document.getElementById('root');
