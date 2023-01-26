@@ -44,7 +44,6 @@ export default function App() {
         <Route path="/order" element={<Order />}></Route>
         <Route path="/login" element={<Login />}></Route>
       </Routes>
-      <Main />
       <Footer />
     </>
   );
