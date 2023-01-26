@@ -8,7 +8,7 @@ import Home from './components/Home.js';
 import Login from './components/Login.js';
 import Menu from './components/Menu.js';
 import Order from './components/Order.js';
-import Reservation from './components/Reservation.js';
+import Booking from './components/Booking.js';
 
 export default function App() {
   return (
@@ -26,8 +26,8 @@ export default function App() {
         <Link to="/menu" className="nav-item">
           Menu
         </Link>
-        <Link to="/reservation" className="nav-item">
-          Reservation
+        <Link to="/booking" className="nav-item">
+          Booking
         </Link>
         <Link to="/order" className="nav-item">
           Order
