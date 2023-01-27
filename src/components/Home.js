@@ -1,5 +1,6 @@
 import React from 'react';
 import DeliveryDiningOutlinedIcon from '@mui/icons-material/DeliveryDiningOutlined';
+import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <main>
@@ -12,7 +13,11 @@ export default function Home() {
             We are a family owned a Mideterranean restaurant, focudes on
             traditional recipes served with a modern twist.
           </p>
-          <button>Resserve a Table</button>
+          <button>
+            <Link to="/booking" className="button_book">
+              Book a Table
+            </Link>
+          </button>
         </article>
         <img
           src="./media/reserve.png"

@@ -78,12 +78,6 @@ nav img {
   text-justify: auto;
   font-family: Karla;
 }
-main {
-  /*display: flex;*/
-  place-items: center;
-  text-align: center;
-  margin: 10px;
-}
 h2 {
   color: #f4ce14;
   font-family: markazi-text;
@@ -106,6 +100,17 @@ button {
   background-color: #f4ce14;
   font-weight: bolder;
   cursor: pointer;
+  text-decoration: none;
+}
+.button_book {
+  flex-wrap: wrap;
+  font-family: Karla;
+  border-radius: 5px;
+  border: none;
+  background-color: #f4ce14;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
 }
 .M_section1 .m_section1_image {
   display: flex;
@@ -181,4 +186,10 @@ button {
   width: 100px;
   height: 100px;
   object-fit: cover;
+}
+.B_main {
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+  padding-right: 300px;
 }
