@@ -1,16 +1,23 @@
 import React from 'react';
 import { useState } from 'react';
 
-export default function Booking() {
+export default function Booking(props) {
   const [avaiDate, setAvaiDate] = useState('');
-  const [avaiTime, setAvaiTime] = useState('');
+  //const [avaiTime, setAvaiTime] = useState([
+  //  '17:00',
+  //  '18:00',
+  //  '19:00',
+  //  '20:00',
+  //  '21:00',
+  //  '22:00',
+  //]);
   const [guests, setGuests] = useState('');
   const [occasion, setOccasion] = useState('');
   const [comment, setComment] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({ avaiDate, avaiTime, guests, occasion, comment });
+    console.log(avaiTime);
   };
 
   return (
@@ -37,7 +44,7 @@ export default function Booking() {
           <option value="18:00">18:00</option>
           <option value="19:00">19:00</option>
           <option value="20:00">20:00</option>
-          <option value="21:30">21:00</option>
+          <option value="21:00">21:00</option>
           <option value="22:00">22:00</option>
         </select>
         <label htmlFor="guests">Number of guests</label>
