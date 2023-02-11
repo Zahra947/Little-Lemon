@@ -1,51 +1,33 @@
 import React from 'react';
 import { useState } from 'react';
 
-export default function Booking(props) {
-  const [avaiDate, setAvaiDate] = useState('');
-  //const [avaiTime, setAvaiTime] = useState([
-  //  '17:00',
-  //  '18:00',
-  //  '19:00',
-  //  '20:00',
-  //  '21:00',
-  //  '22:00',
-  //]);
+export default function Booking({ availableTimes, dispatch }) {
+  const [availbleDate, setAvailbleDate] = useState('');
   const [guests, setGuests] = useState('');
   const [occasion, setOccasion] = useState('');
   const [comment, setComment] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(avaiTime);
+    console.log(availableTimes);
+  };
+
+  const handleDateChange = () => {
+    dispatch({ type: 'update' });
   };
 
   return (
     <>
       <form className="B_main" onSubmit={handleSubmit}>
-        <label htmlFor="book-date">Choose date</label>
-        <input
-          type="date"
-          id="book-date"
-          value={avaiDate}
-          onChange={(e) => {
-            setAvaiDate(e.target.value);
-          }}
-        />
-        <label htmlFor="book-time">Choose time</label>
-        <select
-          id="book-time "
-          value={avaiTime}
-          onChange={(e) => {
-            setAvaiTime(e.target.value);
-          }}
-        >
-          <option value="17:00">17:00</option>
-          <option value="18:00">18:00</option>
-          <option value="19:00">19:00</option>
-          <option value="20:00">20:00</option>
-          <option value="21:00">21:00</option>
-          <option value="22:00">22:00</option>
+        <label htmlFor="date">Choose date</label>
+        <input type="date" id="date" onChange={handleDateChange} />
+        <label htmlFor="time">Choose time</label>
+        <select id="time ">
+          {availableTimes.map((time) => (
+            <option key={time.time} value={time.time}>
+              {time.time}
+            </option>
+          ))}
         </select>
         <label htmlFor="guests">Number of guests</label>
         <input
