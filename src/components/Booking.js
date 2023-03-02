@@ -23,7 +23,7 @@ export default function Booking({ availableTimes, dispatch }) {
         <input type="date" id="date" onChange={handleDateChange} />
         <label htmlFor="time">Choose time</label>
         <select id="time ">
-          {availableTimes.map((time) => (
+          {Object.keys(availableTimes).map((time) => (
             <option key={time.time} value={time.time}>
               {time.time}
             </option>
