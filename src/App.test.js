@@ -3,6 +3,7 @@ import App from './App';
 
 describe('initializeTimes', () => {
   test('returns initialAvailableTimes', () => {
+    render(<App />);
     const expected = [
       { time: '7:00 pm' },
       { time: '8:00 pm' },
@@ -16,6 +17,7 @@ describe('initializeTimes', () => {
 
 describe('updateTimes', () => {
   test('returns the same value provided in the state', () => {
+    render(<App />);
     const state = [
       { time: '7:00 pm' },
       { time: '8:00 pm' },
